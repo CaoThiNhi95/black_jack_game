@@ -1,0 +1,62 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "sans-serif";
+  text-rendering: optimizeLegibility;
+  font-weight: 200;
+  font-size: 20px;
+  color: #ffffff;
+}
+body {
+  background-color: black;
+}
+h2 {
+  text-align: center;
+  margin: 0 auto;
+}
+#container {
+  background-color: green;
+  margin: 1em;
+  padding: 1%;
+  width: 50%;
+  margin-left: 25%;
+}
+.images {
+  background-color: #112b42;
+  padding: 1%;
+}
+#playercards {
+  margin: 0 auto;
+  padding: 0.5%;
+  background-color: #eee;
+  height: 125px;
+}
+#dealercards {
+  margin: 0 auto;
+  padding: 1%;
+  background-color: #eee;
+  height: 125px;
+}
+.dealreset {
+  display: block;
+  text-align: center;
+}
+button.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  
+}
+.hitstand{
+  float: right;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover,a:visited {
+  color: red;
+}
+span{
+  font-size: 15px;
+}
